@@ -1,0 +1,803 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hero: Purposeful Life Program</title>
+<meta name="title" content="Programmer: Fall Intensive" />
+<meta property="url" content="https://afest.com/packages/" />
+<!-- <meta property="og:url" content="https://afest.com/packages/" /> -->
+<meta name="image" content="https://static.mindvalley.com/public/assets/2018/07/AH1t_fbshare-apply.jpg" />
+<meta property="og:image" content="https://static.mindvalley.com/public/assets/2018/07/AH1t_fbshare-apply.jpg" />
+<link rel="image_src" href="https://static.mindvalley.com/public/assets/2018/07/AH1t_fbshare-apply.jpg" />
+<meta property="twitter:image:src" content="https://static.mindvalley.com/public/assets/2018/07/AH1t_fbshare-apply.jpg" />
+<meta property="og:type" content="website" />
+<meta content="@mindvalley" data-page-subject="true" name="twitter:site" />
+<meta content="@mindvalley" data-page-sub />
+<meta property="twitter:domain" content="afest.com" />
+<!-- <link rel="shortcut icon" type="image/x-icon" href="https://static.mindvalley.com/public/assets/2018/07/b8O9_favicon.ico"> -->
+<link rel="icon" 
+      type="image/png" 
+      href="img/heroicongoldblack.png" />
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://s3.amazonaws.com/mv-sitebuilder/global/mv-style-min.css">
+<!-- <link rel="stylesheet" href="https://d3q5mj1kgs3cr.cloudfront.net/packages/A-Fest.com_Packages.css"/> -->
+<link rel="stylesheet" href="main.css"/>
+<script type="text/javascript">
+	window.heap=window.heap||[],heap.load=function(e,t){window.heap.appid=e,window.heap.config=t=t||{};var r=t.forceSSL||"https:"===document.location.protocol,a=document.createElement("script");a.type="text/javascript",a.async=!0,a.src=(r?"https:":"http:")+"//cdn.heapanalytics.com/js/heap-"+e+".js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n);for(var o=function(e){return function(){heap.push([e].concat(Array.prototype.slice.call(arguments,0)))}},p=["addEventProperties","addUserProperties","clearEventProperties","identify","resetIdentity","removeEventProperty","setEventProperties","track","unsetEventProperty"],c=0;c<p.length;c++)heap[p[c]]=o(p[c])};
+		heap.load("1946292396");
+</script>
+
+<!-- start Mixpanel -->
+<script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
+0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
+for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
+mixpanel.init("f190e0a3abb2f2ba2e9346cc30983571");</script>
+<!-- end Mixpanel -->
+
+<!-- start of full story -->
+<script>
+	window['_fs_debug'] = false;
+	window['_fs_host'] = 'fullstory.com';
+	window['_fs_org'] = 'F5PXY';
+	window['_fs_namespace'] = 'FS';
+	(function(m,n,e,t,l,o,g,y){
+			if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
+			g=m[e]=function(a,b){g.q?g.q.push([a,b]):g._api(a,b);};g.q=[];
+			o=n.createElement(t);o.async=1;o.src='https://'+_fs_host+'/s/fs.js';
+			y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
+			g.identify=function(i,v){g(l,{uid:i});if(v)g(l,v)};g.setUserVars=function(v){g(l,v)};g.event=function(i,v){g('event',{n:i,p:v})};
+			g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
+			g.consent=function(a){g("consent",!arguments.length||a)};
+			g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
+			g.clearUserCookie=function(){};
+	})(window,document,window['_fs_namespace'],'script','user');
+	</script>
+<!-- end of full story -->
+
+    </head> 
+<body>
+	  <!-- Start � Header + Herobanner Desktop (Looping Vid) -->
+		<section class="video-bg-wrapper">
+
+			<video autoplay muted loop class="overview-video-bg" poster="img/main.jpg">
+				<!-- <source src="/assets/video-loop.mp4" type="video/mp4"> -->
+			</video>
+	
+			<div class="herobanner-overview-overlay">
+	
+				<div class="header_group text-left md:text-center fixed md:relative z-50 shadow-md md:shadow-none -mt-4 md:mt-0">
+					<div class="w-screen mx-auto bg-white md:bg-transparent md:pb-0">
+						<!-- <div class="flex justify-between items-center py-3 text-center border-bottom">
+							<div class="menuToggle block px-4 md:hidden w-1/3 text-left">
+								<img src="">
+							</div>
+							<div class="md:hidden w-1/3">
+								<img src="" class="inline-block mx-auto md:hidden" />
+							</div>
+							<div class="px-4 md:hidden w-1/3">
+								&nbsp;
+							</div>
+						 </div> --> 
+	
+	
+						 <!-- start of bootstrap navbar -->
+	<!-- <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+	
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Dropdown
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+		</div>
+	</nav> -->
+	
+						 <!-- end of bootstrap navbar -->
+	
+	<!-- NOTE: here is where to add the nav bar from MindValley -->
+	
+						 <!-- mindvalley's top bar, recommend making it so it smoothe scrolls to parts of the website eventually
+	
+						<div class="mx-auto items-center mv_navblock hidden md:block accordian md:px-0">
+							<nav class="white">
+								<a class="block text-black md:inline-block md:text-white item px-4 border-bottom md:py-0 py-2 mt-2 md:mt-0" href="">Start here</a>
+	
+								<div class="block text-black md:inline-block md:text-white dropdown-menu accordian-item md:py-0 py-2 px-4 border-bottom">
+									<a class="text-black md:text-white item trigger" href="#">Programs</a>
+								</div>
+	
+								<div class="block text-black md:inline-block md:text-white dropdown-menu accordian-item md:py-0 py-2 px-4 border-bottom">
+									<a class="text-black md:text-white item trigger" href="#">Events</a>
+									<div class="dropdown-items md:absolute relative transitions pt-2 m-0 target">
+										<div class="rounded bg-white text-left rounded md:py-4 px-4">
+											<a class="block text-black item py-2 text-normal" href="https://www.mindvalley.com/events">Event Calendar</a>
+											<a class="block text-black item py-2 text-normal" href="https://www.afest.com/">Mindvalley A-Fest</a>
+											<a class="block text-black item py-2 text-normal" href="https://www.mindvalley.com/u">Mindvalley U</a>
+											<a class="block text-black item py-2 text-normal" href="https://www.mindvalley.com/reunion">Mindvalley Reunion</a>
+											<a class="block text-black item py-2 text-normal" href="https://www.mindvalley.com/be">Meetups</a>
+										</div>
+									</div>
+								</div>
+	
+								<div class="block text-black md:inline-block md:text-white dropdown-menu accordian-item md:py-0 py-2 px-4 border-bottom">
+									<a class="text-black md:text-white item trigger" href="#">About</a>
+									<div class="dropdown-items md:absolute relative transitions pt-2 m-0 target">
+										<div class="rounded bg-white text-left rounded md:py-4 px-4">
+											<a class="block text-black item py-2 text-normal" href="https://www.mindvalley.com/about">Our Mission</a>
+											<a class="block text-black item py-2 text-normal" href="https://www.mindvalley.com/about/team">The Team</a>
+											<a class="block text-black item py-2 text-normal" href="https://www.mindvalley.com/press">Press</a>
+											<a class="block text-black item py-2 text-normal" href="https://www.trustpilot.com/review/www.mindvalley.com">Reviews</a>
+											<a class="block text-black item py-2 text-normal" href="https://careers.mindvalley.com/">Careers</a>
+										</div>
+									</div>
+								</div>
+	
+								<div class="block text-black md:inline-block md:text-white dropdown-menu accordian-item md:py-0 py-2 px-4 border-bottom">
+									<a class="text-black md:text-white item trigger" href="#">Contact</a>
+								 
+								</div>
+	
+								<a class="rounded-lg border-white border border-solid pt-2 pb-4 md:pb-2 md:px-4 block text-black md:inline-block md:text-white item px-4"
+									href="https://home.mindvalley.com">Login</a>
+							</nav>
+						</div> -->
+	
+						<!-- NOTE: here is where to end the navbar -->
+	
+					</div>
+				</div>
+	
+				<div class="container mx-auto">
+					<div class="mt-4 w-3/5 mx-auto py-12 text-center">
+					<!-- <div class="transparent-box"> -->
+						<img class="main-logo" src="img/herologofull.png"  alt="">
+					<!-- </div> -->
+					<!-- <h1 class="text-white font-gilroy-bold text-4xl lg:text-5xl mt-8">Hero</h1> -->
+						<h1 class="example text-white font-gilroy-bold text-4xl lg:text-5xl mt-8 " style="font-size:44px; margin-top: 0px"> Heroic Lifestyle Program
+						</h1>
+						
+						<h3 class="ambition text-white font-gilroy-medium text-xl mt-3"style="font-size:22px">A 4-week Online Course Empowering Us to Create Incredible Impact, Master Ourselves, and Live Amazing Lives
+	
+						</h3>
+						<a href="course.html" class="mv-button-blue text-center mx-auto mt-8 lg:mb-10" target="blank">Start Here</a>
+					</div>
+				</div>
+			</div>
+	
+		</section>
+  
+    <!-- Start � Section: The Hero Model -->
+  <section style="background: white">
+    <div class="container mx-auto items-center py-12">
+      <h2 class="text-grey-dark font-gilroy-bold text-2xl md:text-4xl text-center md:py-4 py-10">Don't Miss Your Adventure <br> Become Your Hero</h2>
+      <div class="md:flex lg:my-6">
+        <div class="w-full md:w-1/3 text-center md:p-6 md:mb-0 mb-8">
+          <img src="img/impact.png"  style="max-width: 50%" ;
+ >
+          <h3 class="text-grey-dark font-gilroy-bold text-xl md:text-2xl mt-3">Find Or Create Your Ideal Work</h3>
+          <p class="mt-3 font-opensans font-light leading-normal text-grey-dark">Whether it's by finding a job where you make an impact and grow immensely, working within your current job to be more effective, or becoming an entrepreneur, Hero not only helps you get there but shows you the secrets and side hustles to sustain yourself part time no matter how far out your vision is. The Hero Community provides networking from top tech companies to revolutionary artists and conscious entrepreneurs across the world, all of whom have your back. 
+
+
+          </p>
+        </div>
+        <div class="w-full md:w-1/3 md:p-6 text-center md:mb-0 mb-8">
+          <img src="img/evolution.png"  style="max-width: 50%"
+          >
+          <h3 class="text-grey-dark font-gilroy-bold text-xl md:text-2xl mt-3">Evolve+Ground Your Being</h3>
+          <p class="mt-3 font-opensans font-light leading-normal text-grey-dark">Tried Headspace, Calm, or another app but want to go deeper? Experienced a deep meditation but don't to know how to ground that world in 'real life?' Not only do we teach advanced techniques such as tapping into intuition, breaking through emotional barriers, and transforming negative emotions into positive ones, we actually combine meditation with work and daily activities so that you achieve a state of true flow, grounded expertise, and fun in your practice.
+
+        </p>
+        </div>
+        <div class="w-full md:w-1/3 md:p-6 text-center md:pb-0 pb-12">
+          <img src="img/lifestyle.png"  style="max-width: 50%"
+          >
+          <h3 class="text-grey-dark font-gilroy-bold text-xl md:text-2xl mt-3">Life Your Fullest Life</h3>
+          <p class="mt-3 font-opensans font-light leading-normal text-grey-dark">It's not just about working all day to change the world and going home. Being a Hero means experiencing the full celebration of life yourself because those are the moments that inspire you to be your best self and those communities are where you interact with the people you are lifting up. Learn how fun can be productive by seeing how every activity from eating to dancing and more are moments to apply your meditation and step into your fullest self.
+        </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End � Section: The Hero Model -->
+  
+  <section style="background:F3F8FB" class="mt-10  md:py-10  p-4">
+      <div class="container mx-auto">
+        <div class="pt-4">
+          <h2 class="font-gilroy-bold md:text-center text-3xl md:text-4xl mt-4 md:mt-8 mb-4 md:mb-0">Instructor Profiles</h2>
+          <div class="w-full md:w-4/5 mx-auto font-gilroy-medium md:mt-6 text-lg text-md leading-normal text-grey-nav">
+            <!-- Our team includes software developers, entrepreneurs, and  students of previous Programmer cohorts. -->
+          </div>
+    
+    
+    
+          <div class="grid md:flex flex-wrap flex-row-reverse py-6 md:py-12">
+            <div class="w-full md:w-1/3 ">
+              <img src="img/mason2.jpg" srcset="img/mason2.jpg 2x" class="w-full rounded">
+            </div>
+            <div class="w-full md:w-1/2 flex items-center">
+              <div class="md:w-full pr-10">
+                <h1 class="font-gilroy-bold text-2xl md:text-3xl mt-4 md:mt-8">Mason Lantay: Lead Facilitator</h1>
+                <div class="font-gilroy-medium md:mt-6 text-lg text-md leading-normal text-grey-nav mt-4">
+                    <p>Mason's vision is for everyone on earth to have purposeful work, experience their fullest loving potential, and live beautiful lives. Mason began his journey of personal development when he was 15 and since then has logged over 2000 hours of meditation, worked in 10 psychology research labs and organizational development firms, and impacted hundreds of students through his work. Prior to Hero, Mason crated the world's first Mindful Software Development course which attracted students from MIT, Brown, and Yale. As for his lifestyle, Mason is a celebrated dancer, a budding conscious hip hop artist, and has traveled to over 12 countries to study from the best teachers worldwide.
+
+											</p>
+    
+                  </div>
+                  
+              </div>
+              
+            </div>
+            <div class="grid md:flex flex-wrap py-6  md:py-12  flex items-center">
+                <div class="w-full md:w-1/3 ">
+                  <img src="img/quinn.jpg" srcset="img/profile_pic.png " class="w-full rounded">
+                </div>
+                <div class="w-full md:w-1/2 md:pl-10">
+                  <div class="md:w-full pr-10">
+                    <h1 class="font-gilroy-bold text-2xl md:text-3xl mt-4 md:mt-8">Quinntin Ruiz: Impact Facilitator</h1>
+                    <div class="font-gilroy-medium md:mt-6 text-lg text-md leading-normal text-grey-nav mt-4">
+                      <p> Quinn started his first 6 figure company when he was 19 and as since served thousands of customers and led dozens of employees in industries ranging from Food Service to Education to Personal Transformation. When it comes to the areas of teambuilding and impact creation, Quinn is able to speak directly from personal experience in how to step into our fullest purpose in the work we do, no matter what that may be.
+												</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+          </div>
+    
+         
+          
+    
+    
+    
+        </div>
+      </div>
+    </section>
+    
+    <!-- Start � Section: The Hero Model -->
+    <section style="background: white">
+      <div class="container mx-auto items-center ">
+        <h2 class="text-grey-dark font-gilroy-bold text-2xl md:text-4xl text-center md:py-4 py-10">The Program </h2>
+        <h3 class="font-normal font-gilroy-medium text-2xl text-grey-dark text-center pt-4">6 days of content, 1 day of rest. A life changing category for each day of the week.</h3>
+        <div class="md:flex lg:my-6">
+          <div class="w-full md:w-1/3 text-center md:p-6 md:mb-0 mb-8">
+            <img src="img/fistbump.jpg"  style="max-width: 100%" ;
+   >
+            <h3 class="text-grey-dark font-gilroy-bold text-xl md:text-2xl mt-3">Day 1: Live Coaching Call</h3>
+            <p class="mt-3 font-opensans font-light leading-normal text-grey-dark">Network with fellow Heroes across the planet, participate in powerful group activities, and get to know people as passionate as you are.
+  
+  
+            </p>
+          </div>
+          <div class="w-full md:w-1/3 md:p-6 text-center md:mb-0 mb-8">
+            <img src="img/meditation.png"  style="max-width: 100%"
+            >
+            <h3 class="text-grey-dark font-gilroy-bold text-xl md:text-2xl mt-3">Day 2: Meditation+Wisdom</h3>
+            <p class="mt-3 font-opensans font-light leading-normal text-grey-dark">Learn advanced meditation techniques to overcome stress, develop intuition, and grow your confidence.
+  
+          </p>
+          </div>
+          <div class="w-full md:w-1/3 md:p-6 text-center md:pb-0 pb-12">
+            <img src="img/dance.png"  style="max-width: 100%"
+            >
+            <h3 class="text-grey-dark font-gilroy-bold text-xl md:text-2xl mt-3">Day 3: Lifestyle</h3>
+            <p class="mt-3 font-opensans font-light leading-normal text-grey-dark">Apply meditation to every area of your life and develop the foundation for a vibrant amazing lifestyle.
+          </p>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </section>
+    <section style="background: white;" >
+      <div class="container mx-auto items-center " style="padding-bottom: 0% !important">
+       
+        <div class="md:flex lg:my-6">
+          <div class="w-full md:w-1/3 text-center md:p-6 md:mb-0 mb-8">
+            <img src="img/work.png"  style="max-width: 100%" ;
+   >
+            <h3 class="text-grey-dark font-gilroy-bold text-xl md:text-2xl mt-3">Day 4: Impact</h3>
+            <p class="mt-3 font-opensans font-light leading-normal text-grey-dark">Work performance meditations, conscious business techniques, and step by step processes to find and create amazing work.
+  
+  
+            </p>
+          </div>
+          <div class="w-full md:w-1/3 md:p-6 text-center md:mb-0 mb-8">
+            <img src="img/relationships.png"  style="max-width: 100%"
+            >
+            <h3 class="text-grey-dark font-gilroy-bold text-xl md:text-2xl mt-3">Day 5: Relationships</h3>
+            <p class="mt-3 font-opensans font-light leading-normal text-grey-dark">Learn conflict resolution, community finding, groups+team leadership and more to harness your art at relating to those around you.
+  
+          </p>
+          </div>
+          <div class="w-full md:w-1/3 md:p-6 text-center md:pb-0 pb-12">
+            <img src="img/journaling.png"  style="max-width: 100%"
+            >
+            <h3 class="text-grey-dark font-gilroy-bold text-xl md:text-2xl mt-3">Day 6: Implementation</h3>
+            <p class="mt-3 font-opensans font-light leading-normal text-grey-dark"> Spend this day to dive more
+                deeply into what interests you
+                most and create action to make lasting change in your life.
+          </p>
+          </div>
+          
+        </div>
+        
+      </div>
+      
+    </section>
+    <!-- End � Section: The Hero Model -->
+ 
+
+    <section class="mt-10  md:py-10  p-4">
+        <div class="container mx-auto">
+          <div class="pt-4">
+            <h2 class="font-gilroy-bold md:text-center text-3xl md:text-4xl mb-4 md:mb-0">The Schedule</h2>
+            <div class="w-full md:w-5/5 mx-auto md:text-center font-gilroy-medium md:mt-6 text-lg text-md leading-normal ">
+              <br/><strong>BONUS: For a limimted time, get lifetime access to all future course iterations including video calls, content updates, and more.
+              <br> Plus, for a limited time get access to weekly office hours at no additional cost for any extra questions you may have.</strong
+            </div>
+            <div class="grid">
+              
+              <div class="row md:flex flex-wrap mt-10 rounded-t">
+                <div class="text-center text-left w-full md:w-1/3 text-center py-10 border rounded-tl  flex justify-center items-center"  style="background:#F9F9F9">
+                  <div>
+                    <div class="font-gilroy-bold mb-2">Week 1</div>
+                    <div class="font-gilroy-medium ">Find Your Balance</div>
+                    <br> <br>
+                    <img src="img/nounperson.png" style="max-width: 50%">
+                  </div>
+                </div>
+                
+                <!-- bro, this is when you make a new class that includes all these other classes.  -->
+                <div class="md:w-2/3 py-10 md:pl-10 border rounded-tr">
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Coaching Call</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Intro + Group Activities </span></div>
+                  
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Meditation+Wisdom</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Awareness</span></div>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium "> Balance </span></div>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium "> Transforming Emotion</span></div>
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Embodiment</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Conscious Workouts
+                    </span></div>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Yin/Yang Movement for Mindset</span></div>
+                  
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Impact</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Performance Meditation at Work</span></div>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Destress and Motivation</span></div>
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Relationships</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Making Practice Fun+Consistent</span></div>
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Implementation</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Prioritize Transformation</span></div>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Ground Learning into Action</span></div>
+            
+    
+    
+                  <br>
+    
+                </div>
+              </div>
+              
+              <div class="row md:flex flex-wrap border-r border-l">
+                <div  style="background:#F9F9F9" class="text-center text-left w-full md:w-1/3 text-center py-10 flex justify-center items-center" >
+                  <div>
+                    <div class="font-gilroy-bold mb-2">Week 2</div>
+                    <div class="font-gilroy-medium ">Expand Your Toolset </div>
+                    <br> <br>
+                    <img src="img/nounclimbing.png" style="max-width: 40%">
+                  </div>
+                </div>
+                <div class="md:w-2/3 py-10 md:pl-10 border rounded-tr">
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Coaching Call</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Questions+Discussion </span></div>
+                  
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Meditation+Wisdom</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Overcome blocks
+                    </span></div>
+                    <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Surf Your Emotions</span></div>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Tap into your Intuition</span></div>
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Embodiment</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Transformation in Everything
+                    </span></div>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">How Fun is Productive
+                    </span></div>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Impact</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Conversations to Serve Others</span></div>
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Relationships</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Find Community Anywwhere</span></div>
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Implementation</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Prioritize Transformation</span></div>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Ground Learning into Action</span></div>
+            
+                </div>
+              </div>
+    
+              <div class="row md:flex flex-wrap">
+                <div class="text-center text-left w-full md:w-1/3 text-center py-10  border-t flex justify-center items-center"  style="background:#F9F9F9">
+                  <div>
+                    <div class="font-gilroy-bold mb-2">Week 3</div>
+                    <div class="font-gilroy-medium ">Experience Transformation </div>
+                    <br> <br>
+                    <img src="img/nounsummit.png" style="max-width: 50%">
+                  </div>
+                </div>
+                <div class="md:w-2/3 py-10 md:pl-10 border rounded-tr">
+    
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Coaching Call</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Hero Conversations</span></div>
+                  
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Breakthrough Meditation Activity</span></div>
+    
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Meditation+Wisdom</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Life Purpose Activity								</span></div>
+                  
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Embodiment</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">How to Learn Anything</span></div>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">The Key to Skill Mastery</span></div>
+                  <br>
+              
+                  
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Impact</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">3 Steps to Creating Businesses</span></div>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">3 Steps to Finding Amazing Work</span></div>
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Relationships</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Team Formation and Performance
+                  </span></div>
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Implementation</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Prioritize Transformation</span></div>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Ground Learning into Action</span></div>
+            
+                    
+    
+                </div>
+              </div>
+    
+              <div class="row md:flex flex-wrap">
+                <div class="text-center text-left w-full md:w-1/3 text-center py-10  border-t flex justify-center items-center"  style="background:#F9F9F9">
+                  <div>
+                    <div class="font-gilroy-bold mb-2">Week 4</div>
+                    <div class="font-gilroy-medium ">Create Your Reality</div>
+                    <br> <br>
+                    <img src="img/nounexpansion.png" style="max-width: 50%">
+                  </div>
+                </div>
+                <div class="md:w-2/3 py-10 md:pl-10 border rounded-tr">
+    
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Coaching Call</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Designing Your Life</span></div>
+                  
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Meditation+Wisdom</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Creating Your Reality</span></div>
+                  
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Embodiment</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Amazing Community+Travel
+                    </span></div>
+                  
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Impact</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Making the Biggest Impact
+                    </span></div>
+                    <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Remote Side Gigs for Entrepreneurs</span></div>
+                  <br>
+    
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Relationships</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">The Hero Community</span></div>
+                  <br>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Implementation</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Prioritize Transformation</span></div>
+                  <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Ground Learning into Action</span></div>
+            
+                    
+                    
+    
+                </div>
+              </div>
+              <div class="row md:flex flex-wrap">
+                  <div class="text-center text-left w-full md:w-1/3 text-center py-10  border-t flex justify-center items-center"  style="background:#F9F9F9">
+                    <div>
+                      <div class="font-gilroy-bold mb-2">Week 5</div>
+                      <div class="font-gilroy-medium "><strong>LIMITED TIME BONUS: </strong></div>
+                      <div class="font-gilroy-medium "><strong>Repeat the course an infinite number of times</strong></div>
+                      <br> <br>
+                      <img src="img/repeat.png" style="max-width:30%">
+                    </div>
+                  </div>
+                  <div class="md:w-2/3 py-10 md:pl-10 border rounded-tr">
+      
+                    <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right">Special Offer</span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Repeat the course</span></div>
+                  
+                      <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Unlock bonus content </span></div>
+                      <div class="mb-6 md:mb-2"><span class="block md:inline-block  px-6  mb-2 md:mb-0 font-gilroy-bold md:w-48 text-center md:text-right"></span><span class="block text-center md:text-left md:inline-block font-gilroy-medium ">Become even more of your Inner Hero</span></div>
+                      
+                  </div>
+                </div>
+      
+    
+              
+    
+    
+            </div>
+          </div>
+          <!-- <div class="text-center pb-10">
+            <a target="blank" href="https://goo.gl/forms/hJm59zlbs1HhPXLl1" class="mv-button-blue text-center mx-auto mt-10 md:mb-4">Apply Now</a>
+          </div> -->
+        </div>
+      </section>
+
+   <!-- what people are saying -->
+
+<section class="bg-white">
+	<div class="container mx-auto py-12">
+		<h2 class="font-gilroy-bold text-4xl text-center pt-8">What Students are Saying</h2>
+
+		<!-- mansory grid using flex -->
+		<div class="w-full px-6 md:px-0 md:mx-auto md:w-full flex flex-wrap mt-8">
+			<div class="w-full md:w-1/2 md:w-1/3 flex mansory flex-wrap flex-col items-start">
+        <div class="w-full p-2 md:p-4">
+					<div class="rounded-md shadow-lg">
+						<div class="bg-cover w-full h-56 bg-center bg-no-repeat rounded-t retina-bg" src="img/jase.jpg" srcset="img/jase.jpg" style="background-image: url('img/2day.jpg');">
+						</div>
+						<div class="contents p-6">
+							<h1 class="font-gilroy-bold text-2xl">"I am now way more able to focus" </h1>
+							<p class="font-gilroy-regular leading-normal mt-3 text-grey-dark">"Hero’s lesson on entering flow states while working was incredible. I am now way more able to focus and also have much more awareness around my emotions when I am working. I never would have thought meditation could be applied to work in such a productive way but it’s really amazing the impact it can have."
+								</p>
+							<div class="font-gilroy-bold mb-2 mt-4">Jase Broderick </div>
+							<p class="block font-gilroy-medium text-xs md:text-sm leading-normal">Data Scientist, Microsoft 
+
+            </div>
+            
+          </div>
+          
+        </div>
+      
+      
+        
+<!-- uncomment for more, if use ones given will have proper formatting, if just copy one above it won't
+
+-->
+				<div class="w-full p-2 md:p-4">
+					<div class="rounded-md shadow-lg">
+						<div class="bg-cover w-full h-56 bg-center bg-no-repeat rounded-t retina-bg" src="img/sara.jpg" srcset="img/sara.jpg" style="background-image: url('');">
+            
+            </div>
+						<div class="contents p-6">
+								<h1 class="font-gilroy-bold text-2xl">"Mindfulness can be applied to so many situations"</h1>
+								<p class="font-gilroy-regular leading-normal mt-3 text-grey-dark">"Hero’s mission of promoting meditation and mindfulness can be applied to so many situations. Thanks Hero team!"
+									</p>
+								<div class="font-gilroy-bold mb-2 mt-4">Sara Duncan</div>
+								<p class="block font-gilroy-medium text-xs md:text-sm leading-normal">PhD in Public Health, Rutgers University</p>
+							</div>
+					</div>
+				</div>
+			</div>
+			<div class="w-full md:w-1/2 md:w-1/3 flex mansory flex-wrap flex-col items-start">
+
+				<div class="w-full p-2 md:p-4">
+					<div class="rounded-md shadow-lg">
+						<div class="bg-cover w-full h-56 bg-center bg-no-repeat rounded-t retina-bg" src="img/kristian.jpg" srcset="img/kristian.jpg" style="background-image: url('');">
+						</div>
+						<div class="contents p-6">
+								<h1 class="font-gilroy-bold text-2xl">"My life is really shifting into alignment"</h1>
+								<p class="font-gilroy-regular leading-normal mt-3 text-grey-dark">"That was a really powerful experience. I’ve been sitting in hero meditation every morning when I wake up and I’ve been watching my emotions drastically change. My life is really shifting into alignment!
+										
+										"</p>
+								<div class="font-gilroy-bold mb-2 mt-4">Kristian Mccanell </div>
+								<p class="block font-gilroy-medium text-xs md:text-sm leading-normal">Conscious Hip-Hop Artist</p>
+							</div>
+					
+					</div>
+				</div>
+
+				<div class="w-full p-2 md:p-4  hidden md:block">
+					<div class="rounded-md shadow-lg">
+						<div class="bg-cover w-full h-56 bg-center bg-no-repeat rounded-t retina-bg" src="img/caitlin.jpg" srcset="img/caitlin.jpg" style="background-image: url('');">
+						</div>
+						<div class="contents p-6">
+							<h1 class="font-gilroy-bold text-2xl">"How to not just meditate but drop deeply into meditation"</h1>
+							<p class="font-gilroy-regular leading-normal mt-3 text-grey-dark">"I could feel the love moving all around my body! I’ve never done meditation that was outside of headspace but doing the visualizations and understanding how to not just meditate but drop deeply into meditation was an incredible experience
+									."</p>
+							<div class="font-gilroy-bold mb-2 mt-4">Caitlin May</div>
+							<p class="block font-gilroy-medium text-xs md:text-sm leading-normal">Project Manager, Windtech Company</p>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="w-full md:w-1/2 md:w-1/3 flex mansory flex-wrap flex-col items-start">
+
+				<div class="w-full p-2 md:p-4  hidden md:block">
+					<div class="rounded-md shadow-lg">
+						<div class="bg-cover w-full h-56 bg-center bg-no-repeat rounded-t retina-bg" src="img/daniel_2.jpg" srcset="img/daniel_2.jpg" style="background-image: url('');">
+						</div>
+						<div class="contents p-6">
+							<h1 class="font-gilroy-bold text-2xl">"a unique and unparalleled experience"</h1>
+							<p class="font-gilroy-regular leading-normal mt-3 text-grey-dark">"From start to finish, Hero has been a unique and unparallel experience. Not only do I get access to great group of people every step of the way, I also formed a community of people that were willing to learn right by my side. This program can be the beginning of your journey to change your mindset and career."</p>
+							<div class="font-gilroy-bold mb-2 mt-4">Daniel Gonzalez</div>
+							<p class="block font-gilroy-medium text-xs md:text-sm leading-normal">Student, Lafayette College</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="w-full p-2 md:p-4  hidden md:block">
+					<div class="rounded-md shadow-lg">
+						<div class="bg-cover w-full h-56 bg-center bg-no-repeat rounded-t retina-bg" src="img/patrick.jpg" srcset="img/patrick.jpg" style="background-image: url('');">
+						</div>
+						<div class="contents p-6">
+							<h1 class="font-gilroy-bold text-2xl">"It taught me a much deeper understanding of how to relate to people."</h1>
+							<p class="font-gilroy-regular leading-normal mt-3 text-grey-dark">"The Hero Conversations lesson in particular was really helpful. It taught me a much deeper understanding of how to relate to people and learn how to help them, both at work and in my personal life.
+									"</p>
+							<div class="font-gilroy-bold mb-2 mt-4">Patrick Shao</div>
+							<p class="block font-gilroy-medium text-xs md:text-sm leading-normal">Software Developer, Microsoft</p>
+
+            </div>
+            
+          </div>
+        </div>
+        
+
+      </div>
+      <!-- <a href="https://goo.gl/forms/hJm59zlbs1HhPXLl1" class="mv-button-blue text-center mx-auto mt-8 lg:mb-10" target="blank">Request Application</a> -->
+
+		</div> 
+
+	</div>
+</section>
+
+	<!-- Section with centered text -->
+	<section>
+		<div class="container mx-auto py-12 px-4 md:px-0" style="padding-top:0%">
+			<div class="w-full md:w-1/2 mx-auto text-left">
+				<!-- <h1 class="receive font-gilroy-bold text-2xl md:text-3xl mt-2">A Better Programming Experience </h1>
+				<span><b>at a fraction of the cost from similarly-valued online bootcamps</b> </span> -->
+
+
+				<div class="mx-auto rounded mt-10 text-left">
+					<h3 class="mt-1 mb-6 font-gilroy-medium "></h3>
+					<ul class="m-0 p-0 font-gilroy-regular">
+
+						<li class="mb-4 pl-6 list-reset text-sm bg-no-repeat" style="font-size: 16px; background-position:2px;background-image: url(https://static.mindvalley.com/public/assets/2018/07/y4z2_checkmark_green.svg)"> 4-weeks of video lessons, just 30 minutes a day - <strong>learn as efficiently as possible</strong> without any sales fluff
+						</li>
+						<li class="mb-4 pl-6 list-reset text-sm bg-no-repeat" style="font-size: 16px; background-position:2px;background-image: url(https://static.mindvalley.com/public/assets/2018/07/y4z2_checkmark_green.svg)">Weekly coaching calls - ask qustions, <strong>receive personal feedback</strong>, and learn from the experiences of your peers
+						</li>
+						<li class="mb-4 pl-6 list-reset text-sm bg-no-repeat" style="font-size: 16px; background-position:2px;background-image: url(https://static.mindvalley.com/public/assets/2018/07/y4z2_checkmark_green.svg)">Wisdom curriculum - <strong>avoid burnout</strong> and <strong>stay in consistent states of flow</strong> (even after you get distracted)
+						</li>
+						<li class="mb-4 pl-6 list-reset text-sm bg-no-repeat" style="font-size: 16px; background-position:2px;background-image: url(https://static.mindvalley.com/public/assets/2018/07/y4z2_checkmark_green.svg)">Impact curriculum - <strong>apply learnings effectively</strong> and directly <strong>to your everyday life</strong>
+						</li>
+						<li class="mb-4 pl-6 list-reset text-sm bg-no-repeat" style="font-size: 16px; background-position:2px;background-image: url(https://static.mindvalley.com/public/assets/2018/07/y4z2_checkmark_green.svg)">Dedication meditations - <strong>ensure you stay commited</strong> to your intentions of practice during and beyond the Journey
+
+						</li>
+						<li class="mb-4 pl-6 list-reset text-sm bg-no-repeat" style="font-size: 16px; background-position:2px;background-image: url(https://static.mindvalley.com/public/assets/2018/07/y4z2_checkmark_green.svg)">Dynamic + guided exercises - meditations, breathwork, and more to <strong>rewire your emotional state</strong> 
+							
+						<li class="mb-4 pl-6 list-reset text-sm bg-no-repeat" style="font-size: 16px; background-position:2px;background-image: url(https://static.mindvalley.com/public/assets/2018/07/y4z2_checkmark_green.svg)"><strong>Lifetime access to course and coaching calls-</strong> <strong></strong>repeat the course an infinite number of times for free. With bonus content added every month, your journey lasts a lifetime
+						</li>	
+						<li class="mb-4 pl-6 list-reset text-sm bg-no-repeat" style="font-size: 16px; background-position:2px;background-image: url(https://static.mindvalley.com/public/assets/2018/07/y4z2_checkmark_green.svg)"><strong>BONUS</strong> - Apply to receive a full or partial scholarship to the Purposeful Lifestyle Course
+						</li>
+						<li class="mb-4 pl-6 list-reset text-sm bg-no-repeat" style="font-size: 16px; background-position:2px;background-image: url(https://static.mindvalley.com/public/assets/2018/07/y4z2_checkmark_green.svg)"><strong>BONUS</strong> - Join one of the only cohorts who can repeat the course as it is improved at no additional cost
+						</li>
+				
+
+
+					</ul>
+					<div class="flex border-t pt-4">
+						<div class="w-1/2 font-gilroy-bold">Price</div>
+						<div class="w-1/2 text-right font-gilroy-bold  sb_fields-package-price">$497</div>
+					</div>
+				</div>
+					<!-- <div class="inline-block"><a href="https://goo.gl/forms/hJm59zlbs1HhPXLl1" class="mv-button-blue  sb_fields-package-apply_link">Request Application</a> </div> -->
+					<br> <h5 class="mt-1 mb-6 font-gilroy-medium ">(space limited to 20 students)</h5>
+				</div>
+		</div>
+	</section>
+
+
+<!-- Start � Section: CTA -->
+<section class="bg-image bg-cover bg-center relative retina-bg" srcset="img/sunsetpalm.jpg"
+style="background-image: url('img/sunsetpalm.jpg')">
+
+<div class="container mx-auto py-12 w-full md:w-1/2 leading-normal">
+  <h2 class="text-white text-2xl md:text-4xl font-gilroy-bold md:mt-8 text-center md:pt-0 pt-12">Still have questions?</h2>
+  <p class="text-white text-xl font-gilroy-regular leading-normal mt-8 text-center">Write down any concerns or clarifications for your 10 minute 1 on 1. Congratulations on the deep reflection we have done already. We look forward to speaking again soon!</p>
+  <div class="text-center pb-10">
+    <a target="blank" href="" class="mv-button-blue text-center mx-auto mt-10 md:mb-4">Awesome</a>
+  </div>
+</div>
+
+</section>
+<!-- End � Section: CTA -->
+<section class="footer-nav hidden md:block">
+	<div class="container mx-auto py-12 pb-6">
+		<!-- links grid -->
+		<!-- <div class="flex">
+			<div class="w-1/4">
+				<ul class="block list-rest nav  m-0 p-0">
+					<li><a href="/" class="text-grey-nav font-gilroy-medium">Overview</a></li>
+					<li><a href="/about/" class="text-grey-nav font-gilroy-medium">About A-Fest</a></li>
+					<li><a href="https://www.mindvalley.com/about" class="text-grey-nav font-gilroy-medium">About Mindvalley</a></li>
+					<li><a href="http://www.mindvalley.com/about/team" class="text-grey-nav font-gilroy-medium">Mindvalley Team</a></li>
+					<li><a href="/past-events/" class="text-grey-nav font-gilroy-medium">Past Events</a></li>
+				</ul>
+			</div>
+			<div class="w-1/4">
+				<ul class="block list-rest nav  m-0 p-0">
+					<li><a href="/next-event/" class="text-grey-nav font-gilroy-medium">Next Event</a></li>
+					<li><a href="/the-tribe/" class="text-grey-nav font-gilroy-medium">The Tribe</a></li>
+					<li><a href="/the-buzz/" class="text-grey-nav font-gilroy-medium">The Buzz</a></li>
+					<li><a href="/gallery/" class="text-grey-nav font-gilroy-medium">Gallery</a></li>
+					<li><a href="https://www.mindvalley.com/events" class="text-grey-nav font-gilroy-medium">All Mindvalley Events</a></li>
+					<li><a href="/packages/" class="text-grey-nav font-gilroy-medium">Apply</a></li>
+				</ul>
+			</div>
+			<div class="w-1/4">
+				<ul class="block list-rest nav m-0 p-0">
+					<li><a href="https://www.youtube.com/mindvalley/" target="_blank" class="text-grey-nav font-gilroy-medium">Watch Talks</a></li>
+					<li><a href="http://podcast.mindvalley.com" class="text-grey-nav font-gilroy-medium">Podcast</a></li>
+					<li><a href="https://blog.mindvalley.com" class="text-grey-nav font-gilroy-medium">Blog</a></li>
+					<li><a href="https://www.instagram.com/mindvalley/" class="text-grey-nav font-gilroy-medium">Instagram</a></li>
+					<li><a href="https://www.facebook.com/mindvalley/" target="_blank" class="text-grey-nav font-gilroy-medium">Facebook</a></li>
+					<li><a href="https://www.mindvalley.com/press" class="text-grey-nav font-gilroy-medium">Press</a></li>
+				</ul>
+			</div>
+			<div class="w-1/4">
+				<ul class="block list-rest nav  m-0 p-0">
+					<li><a href="https://www.trustpilot.com/review/www.mindvalley.com" target="_blank" class="text-grey-nav font-gilroy-medium">Reviews</a></li>
+					<li><a href="https://support.mindvalley.com" class="text-grey-nav font-gilroy-medium">Support</a></li>
+					<li><a href="/faq/" class="text-grey-nav font-gilroy-medium">FAQs</a></li>
+					<li><a href="https://www.mindvalley.com/contact" class="text-grey-nav font-gilroy-medium">Contact</a></li>
+					<li><a href="https://careers.mindvalley.com" class="text-grey-nav font-gilroy-medium">Careers</a></li>
+					<li><a href="https://home.mindvalley.com" class="text-grey-nav font-gilroy-medium">Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</section> -->
+
+<!-- <section class="footer-mini mb-10">
+	<div class="container mx-auto">
+		<hr class="mv_hr_black hidden md:block">
+		<div class="text-center md:flex justify-between items-center pt-3">
+			<div class="pt-4 md:pt-1 pb-0">
+				<img src="https://static.mindvalley.com/public/assets/2018/08/csNV_logo-MVuniversity-footer%403x.svg"/>
+			</div>
+			<div class="mt-4 md:mt-0 md:flex">
+				<div class=" md:block">
+					<nav class="black">
+						<a class="item text-grey-nav" href="https://www.mindvalley.com/terms-of-use">Terms</a>
+						<a class="item text-grey-nav" href="https://www.mindvalley.com/privacy-policy">Privacy</a>
+					</nav>					
+				</div>
+				<div class="mt-6 md:mt-0 md:block">
+					<nav class="black">
+<a class="text-grey-nav no-underline mr-4" href="https://www.facebook.com/mindvalley/"><img src="https://static.mindvalley.com/public/assets/2018/06/sVKt_ico-facebook.svg"></a>
+<a class="text-grey-nav no-underline mr-4" href="https://www.twitter.com/mindvalley/"><img src="https://static.mindvalley.com/public/assets/2018/06/FSIo_ico-twitter.svg"></a>
+<a class="text-grey-nav no-underline mr-4" href="https://www.instagram.com/mindvalley/"><img src="https://static.mindvalley.com/public/assets/2018/06/J4EN_ico-instagram.svg"></a>
+<a class="text-grey-nav no-underline mr-4" href="https://www.youtube.com/mindvalley/"><img src="https://static.mindvalley.com/public/assets/2018/06/LaCU_ico-youtube.svg"></a>
+<a class="text-grey-nav no-underline mr-4" href="https://open.spotify.com/show/33x8LqNwzBthoVa3im6NdO?si=cVrg5sV0RlqEguDtigNPIA"><img src="https://s28.mindvalley.us/mv2018/media/images/ico-spotify.svg"></a>
+<a class="text-grey-nav no-underline mr-4" href="https://itunes.apple.com/us/podcast/the-mindvalley-podcast-with-vishen-lakhiani/id1317823455?mt=2"><img src="https://s74.mindvalley.us/mv2018/media/images/ico-podcast.svg"></a>
+<a class="text-grey-nav no-underline md:mr-4" href="https://soundcloud.com/user-692283923-293518318"><img src="https://static.mindvalley.com/public/assets/2018/08/ITTX_ico-soundcloud.svg"></a>
+</nav>				
+				</div>
+			</div>
+
+		</div>
+		<p class="text-gilroy-regular text-grey-nav font-opensans leading-normal text-xs mt-6">On May 24 2018, we updated our <a href="/terms-of-use" class="no-underline text-blue">Terms of Use</a> and <a href="/privacy-policy" class="no-underline text-blue">Privacy Policy</a> to reflect the EU’s new GDPR policies for protecting customer data.  Your use of our services is subject to these revised terms which give you more control and protection over your data.</p>
+	</div>
+</section> -->
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chocolat/0.4.19/js/jquery.chocolat.min.js"></script>
+<script type="text/javascript" src="https://static.mindvalley.com/global/script-min2.js"></script>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PTCF63" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>

@@ -1,33 +1,33 @@
 /* our style */
+
 @font-face {
   font-family: "AngelicaProDisplay-Regular";
-  src: 
-  url("/fonts/AngelicaProDisplay-Regular.otf") format("opentype"),
-  }
+  src: url("/fonts/AngelicaProDisplay-Regular.otf") format("opentype"),
+}
 
-.anglecia{
+.anglecia {
   font-family: "AngelciaProDisplay-Regular";
 }
+
 /* Rectangle 3: */
 
 .main-logo {
   /* background: rgba(255, 255, 255, 0.51); */
   margin: auto;
-
-  width: 40%;
+  width: 60%;
   /* padding: 5%; */
 }
-text{
+
+text {
   font-family: "AngelciaProDisplay-Regular" !important;
 }
 
 .transparent-box {
-  background: rgba(255, 255, 255, 0.51);
-  margin: auto;
-  padding-top: 5%;
-  padding-bottom: 5%;
-
+  margin: auto !important;
+  width: 15% !important;
+  padding-top: 5% !important;
 }
+
 /* original style */
 
 .px-0-force {
@@ -84,7 +84,7 @@ text{
 
 @media (max-width: 768px) {
   .container {
-    padding: 0 15px
+    padding: 0 15px;
   }
 }
 
@@ -127,7 +127,7 @@ text{
 .video-bg-wrapper {
   position: relative;
   overflow: hidden;
-  background: url("https://static.mindvalley.com/public/assets/2018/06/E4TD_featured-home.jpg") no-repeat center;
+  background: url("img/main.jpg") no-repeat center;
   background-size: cover
 }
 
@@ -140,7 +140,7 @@ text{
 .herobanner-overview-overlay {
   position: absolute;
   top: 0;
-  /* background: rgba(0, 0, 0, 0.4); */
+  background: rgba(0, 0, 0, .1);
   color: #f1f1f1;
   width: 100%;
   height: 100%
@@ -220,7 +220,7 @@ text{
 }
 
 .herobanner-inset-shadow {
-  /* box-shadow: inset 0px 100px 110px 10px rgba(0, 0, 0, 0.6), inset 0px -300px 110px -10px rgba(0, 0, 0, 0.4) */
+  box-shadow: inset 0px 100px 110px 10px rgba(0, 0, 0, 0.6), inset 0px -300px 110px -10px rgba(0, 0, 0, 0.4)
 }
 
 h1.text-giant {
@@ -492,3 +492,78 @@ h1.text-giant.one-liner {
     max-width: none
   }
 }
+
+@media (max-width: 600px) {
+  .example {
+    font-size: 26px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .example {
+    font-size: 25px !important;
+  }
+}
+
+.deadline {
+  padding-bottom: 70px;
+}
+
+@media (max-width: 600px) {
+  .applynow {
+    width: 100%;
+    display: block;
+  }
+}
+
+.mv-button-blue {
+  background-color: #F1C232;
+  margin-bottom: 15px;
+}
+
+/* #applynow {
+  background-color: black;
+} */
+
+.receive {
+  margin-top: 50px;
+}
+
+.modelbutton {
+  text-align: center;
+}
+
+#mbutton {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 600px) {
+  .ambition {
+    font-size: 16px !important;
+  }
+}
+
+.learntocode {
+  margin-top: 20px;
+}
+
+.div_button {
+  display: flex;
+  justify-content: center;
+}
+
+.applynow_bottom {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  text-align: center;
+}
+
+.mainblock {
+  justify-content: center;
+}
+
+</style>
